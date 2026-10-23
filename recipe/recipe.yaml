@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.1.0
+  version: "0.1.1"
 
 package:
   name: torch-checkpointing
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/torch-checkpointing/torch_checkpointing-${{ version }}.tar.gz
-  sha256: 304725d78f7c110c521cfdb92357df371a423a0168d38f367cede63c122aea73
+  sha256: 2fe62fc62100af5059a54f158c741aa1a50255e6ea03d0a1c8f4f8de03f136a0
 
 build:
   number: 0
